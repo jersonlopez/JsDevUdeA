@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Servidor</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Versión compilada y comprimida del CSS de Bootstrap -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+	<!-- Tema opcional -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+	<!-- Versión compilada y comprimida del JavaScript de Bootstrap -->
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="login.css">
+</head>
+<body>
+	<div class="jumbotron loginbox">
+		<h1 style="color:green">Bienvenidos Muchachos</h1>
+		<form name="flogin" class="flogin" method="post">
+			<label>Nombre </label>
+			<input type="text" name="name" id="name" class="form-control">
+			<label>Apellidos</label>
+			<input type="text" name="lastname" id="lastname" class="form-control">
+			<br>
+			<input type="submit" class="btn btn-success" value="Conectarse" onclick="return saludar()">
+		</form>
+	</div>
+	<script type="text/javascript" src="login.js">
+
+	</script>
+</body>
+</html>

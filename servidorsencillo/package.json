@@ -1,0 +1,35 @@
+{
+  "name": "servidorsencillo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App/appjs",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon App/app.js",
+    "start": "node App/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinEliasQ/servidorsencillo.git"
+  },
+  "author": "Martin Quintero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinEliasQ/servidorsencillo/issues"
+  },
+  "homepage": "https://github.com/MartinEliasQ/servidorsencillo#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "helmet": "^3.1.0",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
+ 
