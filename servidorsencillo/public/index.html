@@ -4,7 +4,7 @@
 	<title>Servidor</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	<!-- Versión compilada y comprimida del CSS de Bootstrap -->
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
 	<!-- Tema opcional -->
@@ -12,6 +12,7 @@
 	<!-- Versión compilada y comprimida del JavaScript de Bootstrap -->
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
  <link rel="stylesheet" href="login.css">
+ <link rel="stylesheet" href="login.js">
 </head>
 <body>
 	<div class="jumbotron loginbox">
@@ -22,11 +23,8 @@
 			<label>Apellidos</label>
 			<input type="text" name="lastname" id="lastname" class="form-control">
 			<br>
-			<input type="submit" class="btn btn-success" value="Conectarse" onclick="return saludar()">
+			<button type="button" id="boton" class="btn btn-success" onclick="saludar()">Conectarse</button>
 		</form>
 	</div>
-	<script type="text/javascript" src="login.js">
-
-	</script>
 </body>
 </html>
