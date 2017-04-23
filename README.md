@@ -1,5 +1,5 @@
 # JsDevUdeA
-este es un repositoria para mis practicas propias
+este es un repositorio para mis practicas propias
 
 
 Angular: es MVW  (es de google pero éste no lo implementa"
@@ -7,7 +7,7 @@ Angular: es MVW  (es de google pero éste no lo implementa"
 - $scope va y viene entre el controlador y la vista cargado con los modelos(cambios).
  
 Angular --> {{x+x}} --> para saber si esta bueno.
-	--> "{{}}" --> manejar datos de angular desde el html
+	--> "{{}}" --> manejar(imprimir) datos de angular desde el html
 
 - SPA --> single page app
 
@@ -18,6 +18,6 @@ Angular --> {{x+x}} --> para saber si esta bueno.
 
 
 -TAREAS
-	- ¿que hace el patro de inyeccion de dependencias? --> inversión de control
+	- ¿que hace el patron de inyeccion de dependencias? --> inversión de control
 	- To do list
 
