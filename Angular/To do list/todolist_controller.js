@@ -17,12 +17,16 @@ function controlador2($scope,$log) {
 
   $scope.tareas=[{
     tarea:'Estudiar angular',
-    fecha:'01/05/2017'
+    fecha:'/01/05/2017'
   }]
 
   $scope.anadir=function() {
       $scope.tareas.push($scope.tareaActual)
       $scope.tareaActual={}
+  }
+
+  $scope.borrar=function() {
+
   }
 
 
