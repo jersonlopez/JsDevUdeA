@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title> Preguntar a la Cucha </title>
+
+  </head>
+  <body ng-controller="controllerMama">
+
+    <div class="form-group" >
+        <label for="sel1">Preguntas: </label>
+        <div ng-repeat="p in preguntas" >
+          <p>{{p.id}} -{{p.pregunta}}</p>
+           <button type="button"  ng-click="preguntar(p.id)"name="button">Ver respuesta</button>
+
+        </div>
+
+        <br><br>
+
+
+  <br><br>
+
+  <div class="form-group">
+    <label for="Textarea">Respuesta</label>
+    <p>{{respuesta}}</p>
+  </div>
+
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js" charset="utf-8"></script>
+    <script src="./app.module.js" charset="utf-8"></script>
+    <script src="./app.service.js" charset="utf-8"></script>
+    <script src="./app.controller.js" charset="utf-8"></script>
+  </body>
+</html>
