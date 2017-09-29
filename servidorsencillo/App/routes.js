@@ -2,6 +2,7 @@ const Router = require('express').Router;
 const router = new Router();
 const path = require('path');
 const config = require('./config/config');
+const login = require('login')
 
 let users = []
 /* yeoman require hook */
@@ -12,6 +13,7 @@ router.route('/').get((req, res) => {
 })
 .post((req, res) => {
   let datos = req.body;
+  //login.saludar(datos.user, datos.pass);
   console.log(datos);
   users.push(datos.user)
   //return res.status(200).send("<script>prompt("hola putos")</script>")
