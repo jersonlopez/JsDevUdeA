@@ -3,8 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "App/appjs",
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "helmet": "^3.1.0",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7",
+    "postman": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
   "scripts": {
     "dev": "nodemon App/app.js",
     "start": "node App/app.js"
@@ -18,18 +29,5 @@
   "bugs": {
     "url": "https://github.com/MartinEliasQ/servidorsencillo/issues"
   },
-  "homepage": "https://github.com/MartinEliasQ/servidorsencillo#readme",
-  "dependencies": {
-    "bluebird": "^3.4.6",
-    "body-parser": "^1.15.2",
-    "compression": "^1.6.2",
-    "express": "^4.14.0",
-    "helmet": "^3.1.0",
-    "morgan": "^1.7.0",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {
-    "nodemon": "^1.11.0"
-  }
+  "homepage": "https://github.com/MartinEliasQ/servidorsencillo#readme"
 }
- 

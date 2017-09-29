@@ -14,6 +14,7 @@ router.route('/').get((req, res) => {
   let datos = req.body;
   console.log(datos);
   users.push(datos.user)
+  //return res.status(200).send("<script>prompt("hola putos")</script>")
   return res.status(200).json({token:'itsOk!'})
 });
 
@@ -39,4 +40,5 @@ module.exports = router;
 
 
 //
+//https://dsinfosrl.wordpress.com/2016/10/04/como-enviar-un-post-con-json/
 //como hacer peticiones en ajax
