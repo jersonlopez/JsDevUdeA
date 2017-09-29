@@ -2,7 +2,7 @@ const Router = require('express').Router;
 const router = new Router();
 const path = require('path');
 const config = require('./config/config');
-const login = require('login')
+//const login = require('login')
 
 let users = []
 /* yeoman require hook */
