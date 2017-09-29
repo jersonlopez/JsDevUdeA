@@ -1,5 +1,12 @@
-function saludar(){
-  var nombre =$(#name).value;
-  var apellido =$(#lastname).value;
-  alert("Buenas "+nombre+" "+apellido+".");
-  }
+function cambiar(){
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("GET","http://localhost:8080/users",true);
+    xhr.send();
+
+    xhr.onreadystatechange = function(){
+      console.log(xhr.responseText);
+    }
+}
+
+cambiar();
