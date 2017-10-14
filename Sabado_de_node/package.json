@@ -1,0 +1,21 @@
+{
+  "name": "Lis-Backend",
+  "version": "1.0.0",
+  "description": "Backend of the Lis-WebPage",
+  "main": "app.js",
+  "author": "Team-Lis",
+  "license": "MIT",
+  "scripts": {
+    "dev": "Dev=true nodemon app.js ",
+    "prod": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
